@@ -1,5 +1,14 @@
 @charset "utf-8";
 
+:root {
+  --my-font: 16px "Helvetica", "Arial", sans-serif;
+  --color: #333;
+}
+
 div {
   animation: my-animation .2s linear;
+  font: var(--my-font);
+  & p {
+    color: var(--color);
+  }
 }
