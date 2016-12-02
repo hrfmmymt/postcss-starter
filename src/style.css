@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+div {
+  animation: my-animation .2s linear;
+}

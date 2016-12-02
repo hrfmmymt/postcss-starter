@@ -1,0 +1,7 @@
+{
+  "use": [
+    "autoprefixer"
+  ],
+  "input": "./src/style.css",
+  "output": "./dist/style.css"
+}
