@@ -2,14 +2,20 @@
 
 > PostCSS's minimum starter kit
 
-## Build
+## Contains
+- [x] autoprefixer
+- [x] postcss-custom-properties
+- [x] postcss-nested
+- [x] stylelint
 
-```
-npm run css
-```
+## Development
 
-## Dev
+```sh
+# Init
+yarn install
 
-```
-npm run w-css
+# Tasks
+yarn css       # Compile
+yarn w-css     # Watch
+yarn lint-css  # stylelint
 ```
