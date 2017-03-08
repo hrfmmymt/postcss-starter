@@ -8,6 +8,7 @@
 div {
   animation: my-animation .2s linear;
   font: var(--my-font);
+
   & p {
     color: var(--color);
   }
